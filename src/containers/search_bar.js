@@ -15,7 +15,6 @@ import React, { Component } from 'react';
 
   onFormSubmit(event) {
     event.preventDefault()
-
     //We need to fetch weather data
   }
 
