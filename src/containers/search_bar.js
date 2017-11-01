@@ -10,8 +10,13 @@ import React, { Component } from 'react';
   }
 
   onInputChange(event){
-    event.preventDefault()
     this.setState({term: event.target.value})
+  }
+
+  onFormSubmit(event) {
+    event.preventDefault()
+
+    //We need to fetch weather data
   }
 
   render() {
